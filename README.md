@@ -14,7 +14,7 @@
                   İlk olarak, tek öğelerin kümeleri oluşturulur ve ardından aday itemset'ler oluşturulur. Bu aday itemset'lerin support değerleri hesaplanır ve belirli 
                   bir min_support değerini aşmayan itemset'ler eleme yapılır. Sonra, elemeden geçen itemset'lerden yeni aday itemset'ler oluşturulur ve bu adaylar için
                   de support değerleri hesaplanır. Bu adımlar tekrarlanır ve güçlü kural setleri oluşturulur. Apriori algoritması, veri setindeki büyük ölçekli veri 
-                  kümelerinde bile etkili bir şekilde çalışabilir ve sık sık kullanılan öğe kombinasyonlarını keşfederek anlamlı kural setleri oluşturabilir.
+                  kümelerinde bile etkili bir şekilde çalışabilir ve sık sık kullanılan öğe kombinasyonlarını keşfederek anlamlı kural setleri oluşturabilir .
 
    - Supprt(X,Y): Freq(X,Y) / N (x ve y nin birlikte görülme olasılığı)
    - confidence(X,Y): Freq(X,Y) / Freq(X) (X alınınca y'nin alınma olasılığı)
